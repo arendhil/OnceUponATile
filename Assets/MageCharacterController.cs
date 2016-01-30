@@ -37,10 +37,12 @@ public class MageCharacterController : MonoBehaviour {
         Vector3 speed = this._rigidbody.velocity;
         if (!jumping) {
             speed = new Vector3(0f, this._rigidbody.velocity.y, 0f);
-            if (h != 0f || v != 0) {
+            if (h != 0f || v != 0f) {
                 speed.x = h / (Mathf.Abs(h) + Mathf.Abs(v)) * this.walkSpeed * Time.deltaTime;
                 speed.z = v / (Mathf.Abs(h) + Mathf.Abs(v)) * this.walkSpeed * Time.deltaTime;
             }
+            //speed = _transform.worldToLocalMatrix * speed;
+            //Debug.Log(speed);
             _rigidbody.velocity = speed;
             _animator.SetFloat("Forward", speed.magnitude);
 
@@ -48,7 +50,8 @@ public class MageCharacterController : MonoBehaviour {
                 speed = Vector3.ProjectOnPlane(speed, _transform.up);
                 var turn = Mathf.Atan2(speed.x, speed.z);
                 //_transform.Rotate(new Vector3(0f, turn, 0f));
-                _transform.rotation = Quaternion.Euler(0f, Mathf.Rad2Deg * turn, 0f);
+                transform.rotation = Quaternion.Euler(0f, Mathf.Rad2Deg * turn, 0f);
+                //_transform.rotation.SetLookRotation(_transform.position + new Vector3(speed.x, 0f, speed.z)*this.walkSpeed,_transform.up);
             }
         }
 
