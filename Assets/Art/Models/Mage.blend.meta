@@ -1,0 +1,750 @@
+fileFormatVersion: 2
+guid: f19c27dff96d8eb42b46cc8017dc90eb
+timeCreated: 1454119398
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Antebraco_L
+    100002: Antebraco_R
+    100004: Bacia_L
+    100006: Bacia_R
+    100008: Braco_L
+    100010: Braco_R
+    100012: Canela_L
+    100014: Canela_R
+    100016: Dedao01_L
+    100018: Dedao01_R
+    100020: Dedao02_L
+    100022: Dedao02_R
+    100024: Head
+    100026: Human_Base
+    100028: Human_Bones
+    100030: Indicador01_L
+    100032: Indicador01_R
+    100034: Indicador02_L
+    100036: Indicador02_R
+    100038: Indicador03_L
+    100040: Indicador03_R
+    100042: JuntaDedao_L
+    100044: JuntaDedao_R
+    100046: JuntaIndicador_L
+    100048: JuntaIndicador_R
+    100050: JuntaMedio_L
+    100052: JuntaMedio_R
+    100054: JuntaMinimo_L
+    100056: JuntaMinimo_R
+    100058: //RootNode
+    100060: Medio01_L
+    100062: Medio01_R
+    100064: Medio02_L
+    100066: Medio02_R
+    100068: Medio03_L
+    100070: Medio03_R
+    100072: Minimo01_L
+    100074: Minimo01_R
+    100076: Minimo02_L
+    100078: Minimo03_L
+    100080: Minimo2_R
+    100082: Minimo3_R
+    100084: nao_deita
+    100086: Neck
+    100088: Ombro_L
+    100090: Ombro_R
+    100092: Pe_L
+    100094: Pe_R
+    100096: Perna_L
+    100098: Perna_R
+    100100: Pulso_L
+    100102: Pulso_R
+    100104: Spine01
+    100106: Spine02
+    100108: Toe_L
+    100110: Toe_R
+    400000: Antebraco_L
+    400002: Antebraco_R
+    400004: Bacia_L
+    400006: Bacia_R
+    400008: Braco_L
+    400010: Braco_R
+    400012: Canela_L
+    400014: Canela_R
+    400016: Dedao01_L
+    400018: Dedao01_R
+    400020: Dedao02_L
+    400022: Dedao02_R
+    400024: Head
+    400026: Human_Base
+    400028: Human_Bones
+    400030: Indicador01_L
+    400032: Indicador01_R
+    400034: Indicador02_L
+    400036: Indicador02_R
+    400038: Indicador03_L
+    400040: Indicador03_R
+    400042: JuntaDedao_L
+    400044: JuntaDedao_R
+    400046: JuntaIndicador_L
+    400048: JuntaIndicador_R
+    400050: JuntaMedio_L
+    400052: JuntaMedio_R
+    400054: JuntaMinimo_L
+    400056: JuntaMinimo_R
+    400058: //RootNode
+    400060: Medio01_L
+    400062: Medio01_R
+    400064: Medio02_L
+    400066: Medio02_R
+    400068: Medio03_L
+    400070: Medio03_R
+    400072: Minimo01_L
+    400074: Minimo01_R
+    400076: Minimo02_L
+    400078: Minimo03_L
+    400080: Minimo2_R
+    400082: Minimo3_R
+    400084: nao_deita
+    400086: Neck
+    400088: Ombro_L
+    400090: Ombro_R
+    400092: Pe_L
+    400094: Pe_R
+    400096: Perna_L
+    400098: Perna_R
+    400100: Pulso_L
+    400102: Pulso_R
+    400104: Spine01
+    400106: Spine02
+    400108: Toe_L
+    400110: Toe_R
+    4300000: Human_Base
+    7400000: Default Take
+    7400002: mage_jumping_distance
+    7400004: magE_jumping_near
+    7400006: mage_walking
+    9500000: //RootNode
+    13700000: Human_Base
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 249
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Base
+        weight: 1
+      - path: Human_Bones
+        weight: 1
+      - path: Human_Bones/nao_deita
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L/Perna_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L/Perna_L/Canela_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L/Perna_L/Canela_L/Pe_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L/Perna_L/Canela_L/Pe_L/Toe_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R/Perna_R
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R/Perna_R/Canela_R
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R/Perna_R/Canela_R/Pe_R
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R/Perna_R/Canela_R/Pe_R/Toe_R
+        weight: 1
+      - path: Human_Bones/Spine01
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Neck
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Neck/Head
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaDedao_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaDedao_L/Dedao01_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaDedao_L/Dedao01_L/Dedao02_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaIndicador_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaIndicador_L/Indicador01_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaIndicador_L/Indicador01_L/Indicador02_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaIndicador_L/Indicador01_L/Indicador02_L/Indicador03_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMedio_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMedio_L/Medio01_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMedio_L/Medio01_L/Medio02_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMedio_L/Medio01_L/Medio02_L/Medio03_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMinimo_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMinimo_L/Minimo01_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMinimo_L/Minimo01_L/Minimo02_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMinimo_L/Minimo01_L/Minimo02_L/Minimo03_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaDedao_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaDedao_R/Dedao01_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaDedao_R/Dedao01_R/Dedao02_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaIndicador_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaIndicador_R/Indicador01_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaIndicador_R/Indicador01_R/Indicador02_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaIndicador_R/Indicador01_R/Indicador02_R/Indicador03_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMedio_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMedio_R/Medio01_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMedio_R/Medio01_R/Medio02_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMedio_R/Medio01_R/Medio02_R/Medio03_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMinimo_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMinimo_R/Minimo01_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMinimo_R/Minimo01_R/Minimo2_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMinimo_R/Minimo01_R/Minimo2_R/Minimo3_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: mage_jumping_distance
+      takeName: mage_jumping_distance
+      firstFrame: -1
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Base
+        weight: 1
+      - path: Human_Bones
+        weight: 1
+      - path: Human_Bones/nao_deita
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L/Perna_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L/Perna_L/Canela_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L/Perna_L/Canela_L/Pe_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L/Perna_L/Canela_L/Pe_L/Toe_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R/Perna_R
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R/Perna_R/Canela_R
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R/Perna_R/Canela_R/Pe_R
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R/Perna_R/Canela_R/Pe_R/Toe_R
+        weight: 1
+      - path: Human_Bones/Spine01
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Neck
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Neck/Head
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaDedao_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaDedao_L/Dedao01_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaDedao_L/Dedao01_L/Dedao02_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaIndicador_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaIndicador_L/Indicador01_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaIndicador_L/Indicador01_L/Indicador02_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaIndicador_L/Indicador01_L/Indicador02_L/Indicador03_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMedio_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMedio_L/Medio01_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMedio_L/Medio01_L/Medio02_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMedio_L/Medio01_L/Medio02_L/Medio03_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMinimo_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMinimo_L/Minimo01_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMinimo_L/Minimo01_L/Minimo02_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMinimo_L/Minimo01_L/Minimo02_L/Minimo03_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaDedao_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaDedao_R/Dedao01_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaDedao_R/Dedao01_R/Dedao02_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaIndicador_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaIndicador_R/Indicador01_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaIndicador_R/Indicador01_R/Indicador02_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaIndicador_R/Indicador01_R/Indicador02_R/Indicador03_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMedio_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMedio_R/Medio01_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMedio_R/Medio01_R/Medio02_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMedio_R/Medio01_R/Medio02_R/Medio03_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMinimo_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMinimo_R/Minimo01_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMinimo_R/Minimo01_R/Minimo2_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMinimo_R/Minimo01_R/Minimo2_R/Minimo3_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: magE_jumping_near
+      takeName: magE_jumping_near
+      firstFrame: -1
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Base
+        weight: 1
+      - path: Human_Bones
+        weight: 1
+      - path: Human_Bones/nao_deita
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L/Perna_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L/Perna_L/Canela_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L/Perna_L/Canela_L/Pe_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L/Perna_L/Canela_L/Pe_L/Toe_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R/Perna_R
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R/Perna_R/Canela_R
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R/Perna_R/Canela_R/Pe_R
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R/Perna_R/Canela_R/Pe_R/Toe_R
+        weight: 1
+      - path: Human_Bones/Spine01
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Neck
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Neck/Head
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaDedao_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaDedao_L/Dedao01_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaDedao_L/Dedao01_L/Dedao02_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaIndicador_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaIndicador_L/Indicador01_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaIndicador_L/Indicador01_L/Indicador02_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaIndicador_L/Indicador01_L/Indicador02_L/Indicador03_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMedio_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMedio_L/Medio01_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMedio_L/Medio01_L/Medio02_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMedio_L/Medio01_L/Medio02_L/Medio03_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMinimo_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMinimo_L/Minimo01_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMinimo_L/Minimo01_L/Minimo02_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMinimo_L/Minimo01_L/Minimo02_L/Minimo03_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaDedao_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaDedao_R/Dedao01_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaDedao_R/Dedao01_R/Dedao02_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaIndicador_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaIndicador_R/Indicador01_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaIndicador_R/Indicador01_R/Indicador02_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaIndicador_R/Indicador01_R/Indicador02_R/Indicador03_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMedio_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMedio_R/Medio01_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMedio_R/Medio01_R/Medio02_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMedio_R/Medio01_R/Medio02_R/Medio03_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMinimo_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMinimo_R/Minimo01_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMinimo_R/Minimo01_R/Minimo2_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMinimo_R/Minimo01_R/Minimo2_R/Minimo3_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: mage_walking
+      takeName: mage_walking
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Base
+        weight: 1
+      - path: Human_Bones
+        weight: 1
+      - path: Human_Bones/nao_deita
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L/Perna_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L/Perna_L/Canela_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L/Perna_L/Canela_L/Pe_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_L/Perna_L/Canela_L/Pe_L/Toe_L
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R/Perna_R
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R/Perna_R/Canela_R
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R/Perna_R/Canela_R/Pe_R
+        weight: 1
+      - path: Human_Bones/nao_deita/Bacia_R/Perna_R/Canela_R/Pe_R/Toe_R
+        weight: 1
+      - path: Human_Bones/Spine01
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Neck
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Neck/Head
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaDedao_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaDedao_L/Dedao01_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaDedao_L/Dedao01_L/Dedao02_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaIndicador_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaIndicador_L/Indicador01_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaIndicador_L/Indicador01_L/Indicador02_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaIndicador_L/Indicador01_L/Indicador02_L/Indicador03_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMedio_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMedio_L/Medio01_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMedio_L/Medio01_L/Medio02_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMedio_L/Medio01_L/Medio02_L/Medio03_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMinimo_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMinimo_L/Minimo01_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMinimo_L/Minimo01_L/Minimo02_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_L/Braco_L/Antebraco_L/Pulso_L/JuntaMinimo_L/Minimo01_L/Minimo02_L/Minimo03_L
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaDedao_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaDedao_R/Dedao01_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaDedao_R/Dedao01_R/Dedao02_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaIndicador_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaIndicador_R/Indicador01_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaIndicador_R/Indicador01_R/Indicador02_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaIndicador_R/Indicador01_R/Indicador02_R/Indicador03_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMedio_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMedio_R/Medio01_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMedio_R/Medio01_R/Medio02_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMedio_R/Medio01_R/Medio02_R/Medio03_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMinimo_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMinimo_R/Minimo01_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMinimo_R/Minimo01_R/Minimo2_R
+        weight: 1
+      - path: Human_Bones/Spine01/Spine02/Ombro_R/Braco_R/Antebraco_R/Pulso_R/JuntaMinimo_R/Minimo01_R/Minimo2_R/Minimo3_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
