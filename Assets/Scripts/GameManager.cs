@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour {
 	void Awake () {
         this.lastSafePosition = this.player.transform.position;
 
-        InvokeRepeating("checkSafePosition", safeCheckInterval, safeCheckInterval);
+        //InvokeRepeating("checkSafePosition", safeCheckInterval, safeCheckInterval);
 	}
 	
 	// Update is called once per frame
