@@ -6,8 +6,9 @@ public class ObjectHolder : MonoBehaviour {
     public GameObject holdingObject = null;
 
     public bool grabItem(GameObject item) {
-        if (this.holdingObject != null) {
+        if (this.holdingObject == null) {
             this.holdingObject = item;
+            this.handTransform.position = this.handTransform.transform.position;
             this.holdingObject.transform.SetParent(this.handTransform);
             return true;
         }
