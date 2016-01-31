@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour {
         this.waitingRetry = false;
         this.gameOverCanvas.gameObject.SetActive(false);
         this.transform.position = this.lastSafeCameraPosition;
-        this.player.transform.position = this.lastSafePosition;
+        this.player.transform.position = this.lastSafePosition + new Vector3(0f, 1f, 0f);
         //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
