@@ -17,18 +17,25 @@ public class InteractableObject : MonoBehaviour {
 
     [SerializeField]
     public GameObject[] actioneer;
-    public int sigilLength = 3;
+    private int sigilLength = 3;
 
     // Use this for initialization
     void Awake () {
+        this.sigilLength = 1;
+        for (int i = 0; i < this.recipes.Length; i++) {
+            if (this.recipes[i].sigilOrder.Length > this.sigilLength)
+                this.sigilLength = this.recipes[i].sigilOrder.Length;
+        }
         sigilsUsed = new ActivateOnStep[sigilLength];
     }
 
     public void registerSigil(ActivateOnStep sigil) {
-        this.sigilsUsed[this.currentSigil] = sigil;
-        this.currentSigil++;
-        if (this.currentSigil == this.sigilLength) {
-            this.checkSigils();
+        if (this.currentSigil < this.sigilLength) {
+            this.sigilsUsed[this.currentSigil] = sigil;
+            this.currentSigil++;
+            if (this.currentSigil == this.sigilLength) {
+                this.checkSigils();
+            }
         }
     }
 
@@ -47,5 +54,10 @@ public class InteractableObject : MonoBehaviour {
                 return;
             }
         }
+
+        for  (int i = 0; i < this.currentSigil; i++) {
+            this.sigilsUsed[i].deactivate();
+        }
+        this.currentSigil = 0;
     }
 }

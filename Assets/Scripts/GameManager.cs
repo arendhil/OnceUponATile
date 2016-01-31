@@ -47,9 +47,10 @@ public class GameManager : MonoBehaviour {
     }
 
     void reload() {
-        this.player.gameObject.SetActive(true);
-        this.waitingRetry = false;
-        this.gameOverCanvas.gameObject.SetActive(false);
-        this.player.transform.position = this.lastSafePosition;
+        //this.player.gameObject.SetActive(true);
+        //this.waitingRetry = false;
+        //this.gameOverCanvas.gameObject.SetActive(false);
+        //this.player.transform.position = this.lastSafePosition;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

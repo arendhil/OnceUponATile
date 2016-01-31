@@ -6,17 +6,23 @@ public class MageCharacterController : MonoBehaviour {
     private Rigidbody _rigidbody;
     private Animator _animator;
 
+    public AudioClip jump;
+    public AudioClip land;
+    public AudioClip step;
+
     public float groundCheckDistance = 0.1f;
     public float walkSpeed = 2.0f;
     public float jumpForce = 150f;
     public bool grounded = false;
     public bool turning = false;
     public bool jumping = false;
-    
-	void Awake () {
+    private AudioSource _audioSource;
+
+    void Awake () {
         this._transform = this.GetComponent<Transform>();
         this._rigidbody = this.GetComponent<Rigidbody>();
         this._animator = this.GetComponent<Animator>();
+        this._audioSource = this.GetComponent<AudioSource>();
 	}
 	
 	// Update - Input control
@@ -52,6 +58,14 @@ public class MageCharacterController : MonoBehaviour {
                 //_transform.Rotate(new Vector3(0f, turn, 0f));
                 transform.rotation = Quaternion.Euler(0f, Mathf.Rad2Deg * turn, 0f);
                 //_transform.rotation.SetLookRotation(_transform.position + new Vector3(speed.x, 0f, speed.z)*this.walkSpeed,_transform.up);
+                if (!this._audioSource.isPlaying) {
+                    this._audioSource.clip = step;
+                    this._audioSource.Play();
+                }
+            } else {
+                if (this._audioSource.isPlaying) {
+                    this._audioSource.Stop();
+                }
             }
         }
         this._animator.SetBool("Falling",((_rigidbody.velocity.y >= 0f)? false : true));
@@ -63,6 +77,9 @@ public class MageCharacterController : MonoBehaviour {
             this._rigidbody.AddForce(new Vector3(0f, jumpForce, 0f));
             this.grounded = false;
             this._animator.SetBool("Grounded",false);
+            this._audioSource.PlayOneShot(this.jump);
+            this._audioSource.Stop();
+
         }
     }
 
@@ -75,11 +92,14 @@ public class MageCharacterController : MonoBehaviour {
         // 0.1f is a small offset to start the ray from inside the character
         // it is also good to note that the transform position in the sample assets is at the base of the character
         if (Physics.Raycast(transform.position + (Vector3.up * 0.1f), Vector3.down, out hitInfo, groundCheckDistance, (1<<LayerMask.NameToLayer("Ground")))) {
-            grounded = true;
-            jumping = false;
-            //this._animator.applyRootMotion = true;
-            //this._animator.SetTrigger("Ground");
-            this._animator.SetBool("Grounded", true);
+            if (!grounded) {
+                grounded = true;
+                jumping = false;
+                //this._animator.applyRootMotion = true;
+                //this._animator.SetTrigger("Ground");
+                this._animator.SetBool("Grounded", true);
+                this._audioSource.PlayOneShot(this.land);
+            }
         } else {
             grounded = false;
             //_animator.applyRootMotion = false;
