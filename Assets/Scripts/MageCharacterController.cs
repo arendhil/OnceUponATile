@@ -52,7 +52,7 @@ public class MageCharacterController : MonoBehaviour {
             _rigidbody.velocity = speed;
             _animator.SetFloat("Forward", speed.magnitude);
 
-            if (speed.magnitude > 0f) {
+            if (speed.magnitude > 0.2f) {
                 speed = Vector3.ProjectOnPlane(speed, _transform.up);
                 var turn = Mathf.Atan2(speed.x, speed.z);
                 //_transform.Rotate(new Vector3(0f, turn, 0f));
