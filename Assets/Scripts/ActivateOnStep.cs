@@ -28,6 +28,16 @@ public class ActivateOnStep : MonoBehaviour {
         }
     }
 
+    void OnTriggerExit(Collider other) {
+        if (other.tag == "Player") {
+            if (this.active) {
+                Debug.Log("Activating " + type.ToString() + " floor.");
+                if (!this.actionRegister.completed)
+                    this.actionRegister.checkSigils();
+            }
+        }
+    }
+
     public void deactivate() {
         Destroy(this.coverObject);
         this.coverObject = Instantiate(this.deactivatedPrefab);
@@ -37,11 +47,12 @@ public class ActivateOnStep : MonoBehaviour {
     }
 
     public void activate() {
-        Destroy(this.coverObject);
-        this.coverObject = Instantiate(this.activatedPrefab);
-        this.coverObject.transform.position = this.transform.position;
-        //this.rend.material = this.activatedMaterial;
-        this.active = true;
-        this.actionRegister.registerSigil(this);
+        if (this.actionRegister.registerSigil(this)) {
+            Destroy(this.coverObject);
+            this.coverObject = Instantiate(this.activatedPrefab);
+            this.coverObject.transform.position = this.transform.position;
+            //this.rend.material = this.activatedMaterial;
+            this.active = true;
+        }
     }
 }

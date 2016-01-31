@@ -11,6 +11,7 @@ public class MagicalRecipe :System.Object {
 public class InteractableObject : MonoBehaviour {
     private ActivateOnStep[] sigilsUsed;
     private int currentSigil = 0;
+    public bool completed = false;
 
     [SerializeField]
     public MagicalRecipe[] recipes;
@@ -29,28 +30,35 @@ public class InteractableObject : MonoBehaviour {
         sigilsUsed = new ActivateOnStep[sigilLength];
     }
 
-    public void registerSigil(ActivateOnStep sigil) {
+    public bool registerSigil(ActivateOnStep sigil) {
         if (this.currentSigil < this.sigilLength) {
             this.sigilsUsed[this.currentSigil] = sigil;
             this.currentSigil++;
-            if (this.currentSigil == this.sigilLength) {
-                this.checkSigils();
-            }
+            //if (this.currentSigil == this.sigilLength) {
+            //    this.checkSigils();
+            //}
+            return true;
         }
+        return false;
     }
 
-    private void checkSigils () {
+    public void checkSigils () {
         for (int i = 0; i < this.recipes.Length; i++) {
             bool found = true;
             for (int j = 0; j < this.recipes[i].sigilOrder.Length; j++) {
-                if (this.recipes[i].sigilOrder[j] != this.sigilsUsed[j].type) {
-                    found = false;
-                    break;
+                if (this.sigilsUsed[j] != null) { 
+                    if (this.recipes[i].sigilOrder[j] != this.sigilsUsed[j].type) {
+                        found = false;
+                        break;
+                    }
+                } else {
+                    return;
                 }
             }
             if (found) {
                 Debug.Log("Ritual Completed.");
                 (this.actioneer[i].GetComponent<IMagicAction>()).magicalAction();
+                this.completed = true;
                 return;
             }
         }

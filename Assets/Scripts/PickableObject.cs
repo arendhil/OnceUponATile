@@ -15,7 +15,6 @@ public class PickableObject : MonoBehaviour {
 
     void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Player")) {
-            Debug.Log("Got it!");
             other.GetComponent<ObjectHolder>().grabItem(this.gameObject);
         }
     }

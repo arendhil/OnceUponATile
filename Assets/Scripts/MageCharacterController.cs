@@ -68,7 +68,7 @@ public class MageCharacterController : MonoBehaviour {
                 }
             }
         }
-        this._animator.SetBool("Falling",((_rigidbody.velocity.y >= 0f)? false : true));
+        this._animator.SetBool("Falling",((_rigidbody.velocity.y >= -1f)? false : true));
 
 
 

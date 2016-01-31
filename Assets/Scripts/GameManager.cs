@@ -5,6 +5,7 @@ using System.Collections;
 public class GameManager : MonoBehaviour {
     private bool waitingRetry = false;
     private Vector3 lastSafePosition = new Vector3(0f,0f,0f);
+    private Vector3 lastSafeCameraPosition = new Vector3(0f, 0f, 0f);
 
     public float safeCheckInterval = 2f;
     public MageCharacterController player;
@@ -31,6 +32,7 @@ public class GameManager : MonoBehaviour {
         if (!this.waitingRetry) {
             if (player.grounded) {
                 this.lastSafePosition = player.transform.position;
+                this.lastSafeCameraPosition = this.transform.position;
             }
         }
     }
@@ -47,10 +49,11 @@ public class GameManager : MonoBehaviour {
     }
 
     void reload() {
-        //this.player.gameObject.SetActive(true);
-        //this.waitingRetry = false;
-        //this.gameOverCanvas.gameObject.SetActive(false);
-        //this.player.transform.position = this.lastSafePosition;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        this.player.gameObject.SetActive(true);
+        this.waitingRetry = false;
+        this.gameOverCanvas.gameObject.SetActive(false);
+        this.transform.position = this.lastSafeCameraPosition;
+        this.player.transform.position = this.lastSafePosition;
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
