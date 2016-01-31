@@ -2,6 +2,11 @@
 using System.Collections;
 
 public class CameraShake : MonoBehaviour {
+    private Camera cam;
+
+    void Awake() {
+        this.cam = this.GetComponent<Camera>();
+    }
 
     public void shakeThatBooty(float duration = 0.5f, float strength = 0.3f) {
         StartCoroutine(Shake(duration, strength));
@@ -11,7 +16,7 @@ public class CameraShake : MonoBehaviour {
 
         float elapsed = 0.0f;
 
-        Vector3 originalCamPos = Camera.main.transform.position;
+        Vector3 originalCamPos = cam.transform.position;
 
         while (elapsed < duration) {
 
@@ -27,11 +32,11 @@ public class CameraShake : MonoBehaviour {
             x *= magnitude * damper;
             z *= magnitude * damper;
 
-            Camera.main.transform.position = new Vector3(x, originalCamPos.y, z);
+            cam.transform.position = new Vector3(x, originalCamPos.y, z);
 
             yield return null;
         }
 
-        Camera.main.transform.position = originalCamPos;
+        cam.transform.position = originalCamPos;
     }
 }

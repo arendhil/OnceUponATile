@@ -9,6 +9,7 @@ public class MagicalRecipe :System.Object {
 }
 
 public class InteractableObject : MonoBehaviour {
+    [SerializeField]
     private ActivateOnStep[] sigilsUsed;
     private int currentSigil = 0;
     public bool completed = false;
@@ -65,6 +66,7 @@ public class InteractableObject : MonoBehaviour {
 
         for  (int i = 0; i < this.currentSigil; i++) {
             this.sigilsUsed[i].deactivate();
+            this.sigilsUsed[i] = null;
         }
         this.currentSigil = 0;
     }
