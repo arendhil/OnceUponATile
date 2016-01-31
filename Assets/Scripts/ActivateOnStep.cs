@@ -1,15 +1,23 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public enum SigilType { Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Moon };
+public enum SigilType { Air, Earth, Water, Fire };
 
 public class ActivateOnStep : MonoBehaviour {
-    public Renderer rend;
-    public Material activatedMaterial;
-    public Material deactivatedMaterial;
+    private GameObject coverObject;
+
+    public GameObject activatedPrefab;
+    public GameObject deactivatedPrefab;
     public bool active;
-    public SigilType type = SigilType.Sun;
+    public SigilType type = SigilType.Air;
     public InteractableObject actionRegister;
+
+    void Awake() {
+        this.active = false;
+        this.coverObject = Instantiate(this.deactivatedPrefab);
+        this.coverObject.transform.position = this.transform.position;
+
+    }
 
     void OnTriggerEnter(Collider other) {
         if (other.tag == "Player") {
@@ -21,12 +29,18 @@ public class ActivateOnStep : MonoBehaviour {
     }
 
     public void deactivate() {
-        this.rend.material = this.deactivatedMaterial;
+        Destroy(this.coverObject);
+        this.coverObject = Instantiate(this.deactivatedPrefab);
+        this.coverObject.transform.position = this.transform.position;
+        //this.rend.material = this.deactivatedMaterial;
         this.active = false;
     }
 
     public void activate() {
-        this.rend.material = this.activatedMaterial;
+        Destroy(this.coverObject);
+        this.coverObject = Instantiate(this.activatedPrefab);
+        this.coverObject.transform.position = this.transform.position;
+        //this.rend.material = this.activatedMaterial;
         this.active = true;
         this.actionRegister.registerSigil(this);
     }

@@ -26,6 +26,7 @@ namespace UnityStandardAssets.Cameras
 
         protected override void FollowTarget(float deltaTime)
         {
+            //m_Target = GameObject.FindGameObjectWithTag("Player").transform;
             // if no target, or no time passed then we quit early, as there is nothing to do
             if (!(deltaTime > 0) || m_Target == null)
             {
