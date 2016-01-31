@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CameraShake : MonoBehaviour {
 
-    public void shakeThatBooty(float duration = 2f, float strength = 0.3f) {
+    public void shakeThatBooty(float duration = 0.5f, float strength = 0.3f) {
         StartCoroutine(Shake(duration, strength));
     }
 
@@ -22,12 +22,12 @@ public class CameraShake : MonoBehaviour {
 
             // map value to [-1, 1]
 
-            float x = Mathf.PerlinNoise(Random.value, Random.value);//            Random.value * 2.0f - 1.0f;
-            float y = Mathf.PerlinNoise(Random.value, Random.value);//            Random.value * 2.0f - 1.0f;
+            float x = originalCamPos.x+Mathf.PerlinNoise(Random.value, Random.value);//            Random.value * 2.0f - 1.0f;
+            float z = originalCamPos.z+Mathf.PerlinNoise(Random.value, Random.value);//            Random.value * 2.0f - 1.0f;
             x *= magnitude * damper;
-            y *= magnitude * damper;
+            z *= magnitude * damper;
 
-            Camera.main.transform.position = new Vector3(x, y, originalCamPos.z);
+            Camera.main.transform.position = new Vector3(x, originalCamPos.y, z);
 
             yield return null;
         }
