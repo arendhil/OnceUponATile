@@ -15,13 +15,14 @@ namespace UnityStandardAssets.Utility
 		[SerializeField]
 		private float height = 5.0f;
 
-		[SerializeField]
+        [SerializeField]
 		private float rotationDamping;
 		[SerializeField]
 		private float heightDamping;
+        public float sideDisplacement = 2.0f;
 
-		// Use this for initialization
-		void Start() { }
+        // Use this for initialization
+        void Start() { }
 
 		// Update is called once per frame
 		void LateUpdate()
@@ -56,6 +57,8 @@ namespace UnityStandardAssets.Utility
 
 			// Always look at the target
 			transform.LookAt(target);
-		}
+
+            transform.position += transform.right * sideDisplacement;
+        }
 	}
 }

@@ -11,7 +11,7 @@ Caio Chagas
 Marcelo Rigon
 
 ## Developers
-Paola Agard
+Paolla Agard
 Tulio Pulgrossi
 
 ## Lead Developer 
