@@ -140,7 +140,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -1012,8 +1012,600 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    human: []
-    skeleton: []
+    human:
+    - boneName: Human_Bones
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bacia_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bacia_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Canela_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Canela_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pe_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pe_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine02
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ombro_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ombro_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Braco_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Braco_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Antebraco_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Antebraco_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pulso_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pulso_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toe_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toe_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JuntaIndicador_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Indicador01_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Indicador02_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JuntaMedio_L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Medio01_L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Medio02_L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Minimo01_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Minimo02_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Minimo03_L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JuntaIndicador_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Indicador01_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Indicador02_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JuntaMedio_R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Medio01_R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Medio02_R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Minimo01_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Minimo2_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Minimo3_R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Mage(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Base
+      position: {x: 0, y: 0, z: -1.4010813}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.37388253, y: 0.37388253, z: 0.37388253}
+      transformModified: 1
+    - name: Human_Bones
+      position: {x: 0, y: 1.1901945, z: -0.2953663}
+      rotation: {x: -1, y: 0, z: -0.00000012084217, w: 0}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine01
+      position: {x: -0, y: 0.05822725, z: -0.2907681}
+      rotation: {x: 0.70570326, y: 0.70570326, z: 0.04453033, w: -0.04453027}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+      transformModified: 1
+    - name: Spine02
+      position: {x: -0.46322113, y: 0.00000003259629, z: 0}
+      rotation: {x: 0.00000008940696, y: -0.06297531, z: 0.000000029802319, w: 0.9980151}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999976}
+      transformModified: 1
+    - name: Neck
+      position: {x: -0.23099162, y: 0.000000020489097, z: 0.000000014668331}
+      rotation: {x: -1, y: 0.00000013411045, z: -0.000000059604645, w: -0.00000025331974}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.9999995}
+      transformModified: 1
+    - name: Head
+      position: {x: -0.1136024, y: 0.000000006519258, z: -0.000000016298145}
+      rotation: {x: 0.9958971, y: -0.000000104308114, z: 0.090493076, w: -0.00000017881392}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000005}
+      transformModified: 1
+    - name: Ombro_L
+      position: {x: -0.23099162, y: 0.000000020489097, z: 0.000000014668331}
+      rotation: {x: -0.4090606, y: -0.5162202, z: 0.4724415, w: 0.58564943}
+      scale: {x: 0.9999996, y: 0.99999946, z: 1}
+      transformModified: 1
+    - name: Braco_L
+      position: {x: -0.25276384, y: 0.000000006519258, z: 0.000000015832484}
+      rotation: {x: 0.0044818236, y: -0.029074116, z: 0.11974775, w: 0.9923684}
+      scale: {x: 1.0000001, y: 1.0000005, z: 0.99999976}
+      transformModified: 1
+    - name: Antebraco_L
+      position: {x: -0.30069128, y: 0.000000067055225, z: -0.000000009313226}
+      rotation: {x: -0.059545197, y: 0.071328886, z: -0.0019966883, w: 0.9956719}
+      scale: {x: 1.0000004, y: 1.0000002, z: 0.9999999}
+      transformModified: 1
+    - name: Pulso_L
+      position: {x: -0.27391085, y: 0.000000044703484, z: 0.000000004023605}
+      rotation: {x: 0.0039102077, y: -0.03672113, z: -0.0110826865, w: 0.9992565}
+      scale: {x: 1, y: 0.9999999, z: 0.9999997}
+      transformModified: 1
+    - name: JuntaDedao_L
+      position: {x: -0.08377882, y: 0.000000014901161, z: 0.000000005122274}
+      rotation: {x: 0.05967395, y: -0.00392818, z: 0.44805315, w: 0.89200443}
+      scale: {x: 0.75, y: 0.74999994, z: 0.7500001}
+      transformModified: 1
+    - name: Dedao01_L
+      position: {x: -0.16414483, y: 0.00000005122274, z: 0.000000063329935}
+      rotation: {x: -0.004208536, y: 0.1252892, z: -0.028017312, w: 0.99171567}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.9999996}
+      transformModified: 1
+    - name: Dedao02_L
+      position: {x: -0.09984693, y: 0.000000029336661, z: -0.000000033527613}
+      rotation: {x: 0.026930884, y: -0.15863076, z: -0.2065682, w: 0.96511173}
+      scale: {x: 0.99999976, y: 1, z: 1.0000002}
+      transformModified: 1
+    - name: JuntaIndicador_L
+      position: {x: -0.08377882, y: 0.000000014901161, z: 0.000000005122274}
+      rotation: {x: 0.02589759, y: -0.0061392845, z: 0.07529428, w: 0.99680614}
+      scale: {x: 0.7500001, y: 0.74999994, z: 0.75}
+      transformModified: 1
+    - name: Indicador01_L
+      position: {x: -0.1787846, y: -0.00000010803342, z: -0.000000013038516}
+      rotation: {x: -0.028295249, y: 0.0024270366, z: -0.030908905, w: 0.9991187}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+      transformModified: 1
+    - name: Indicador02_L
+      position: {x: -0.18306953, y: 0.000000059604645, z: 0.000000044703484}
+      rotation: {x: -0.012261763, y: -0.027343163, z: -0.027298486, w: 0.99917805}
+      scale: {x: 1, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: Indicador03_L
+      position: {x: -0.061685115, y: 0.000000029802322, z: 0.000000029802322}
+      rotation: {x: 0.0019287107, y: 0.000046840927, z: 0.0072475797, w: 0.99997187}
+      scale: {x: 0.99999976, y: 1, z: 0.9999997}
+      transformModified: 1
+    - name: JuntaMedio_L
+      position: {x: -0.08377882, y: 0.000000014901161, z: 0.000000005122274}
+      rotation: {x: -0.0027730612, y: -0.034708764, z: 0.028169988, w: 0.99899656}
+      scale: {x: 0.75000024, y: 0.74999994, z: 0.7500001}
+      transformModified: 1
+    - name: Medio01_L
+      position: {x: -0.16384737, y: 0.000000037252903, z: -0.000000010244548}
+      rotation: {x: 0.0035151932, y: 0.035152618, z: 0.016479854, w: 0.99923986}
+      scale: {x: 0.99999964, y: 0.99999994, z: 0.9999998}
+      transformModified: 1
+    - name: Medio02_L
+      position: {x: -0.16502443, y: 0.00000010430813, z: -0.000000109896064}
+      rotation: {x: -0.007843405, y: -0.028498972, z: -0.025639957, w: 0.99923414}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: Medio03_L
+      position: {x: -0.058538638, y: 0.000000059604645, z: 0.000000026077032}
+      rotation: {x: -0.00922608, y: -0.00013931007, z: 0.013945834, w: 0.99986017}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1}
+      transformModified: 1
+    - name: JuntaMinimo_L
+      position: {x: -0.08377882, y: 0.000000014901161, z: 0.000000005122274}
+      rotation: {x: -0.02740529, y: -0.020351082, z: -0.2238727, w: 0.9740204}
+      scale: {x: 0.75, y: 0.75, z: 0.75000006}
+      transformModified: 1
+    - name: Minimo01_L
+      position: {x: -0.17437707, y: -0.00000002142042, z: -0.000000044645276}
+      rotation: {x: 0.020215204, y: 0.016362984, z: 0.25006887, w: 0.96787876}
+      scale: {x: 0.99999946, y: 0.9999996, z: 1}
+      transformModified: 1
+    - name: Minimo02_L
+      position: {x: -0.16728535, y: -0.000000044703484, z: -0.000000059604645}
+      rotation: {x: 0.017418081, y: -0.018837098, z: 0.03359688, w: 0.9991061}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: Minimo03_L
+      position: {x: -0.07370542, y: -0.00000011920929, z: 0.000000026077032}
+      rotation: {x: -0.028706037, y: -0.026667112, z: -0.13090467, w: 0.99062043}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: Ombro_R
+      position: {x: -0.23099162, y: 0.000000020489097, z: 0.000000014668331}
+      rotation: {x: -0.40906036, y: 0.5162203, z: 0.47244143, w: -0.58564943}
+      scale: {x: 1.0000002, y: 0.9999997, z: 1.0000001}
+      transformModified: 1
+    - name: Braco_R
+      position: {x: -0.25276384, y: 0.000000018044375, z: -0.000000022351742}
+      rotation: {x: -0.0044818823, y: -0.02907456, z: -0.11974763, w: 0.99236846}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+      transformModified: 1
+    - name: Antebraco_R
+      position: {x: -0.30069128, y: 0.000000052154064, z: -0.000000026077032}
+      rotation: {x: 0.0595453, y: 0.07132931, z: 0.0019967665, w: 0.99567187}
+      scale: {x: 0.9999999, y: 1.0000005, z: 1.0000005}
+      transformModified: 1
+    - name: Pulso_R
+      position: {x: -0.27391085, y: 0.000000033527613, z: 0.00000002537854}
+      rotation: {x: -0.0039101494, y: -0.036721148, z: 0.011082763, w: 0.99925643}
+      scale: {x: 0.9999998, y: 1, z: 0.99999964}
+      transformModified: 1
+    - name: JuntaDedao_R
+      position: {x: -0.08377883, y: 0.000000026077032, z: -0.000000005587935}
+      rotation: {x: -0.059673905, y: -0.0039282134, z: -0.4480532, w: 0.8920045}
+      scale: {x: 0.75, y: 0.74999976, z: 0.7500003}
+      transformModified: 1
+    - name: Dedao01_R
+      position: {x: -0.1641448, y: 0.000000018626451, z: 0.00000004656613}
+      rotation: {x: 0.004208525, y: 0.12528916, z: 0.028017431, w: 0.99171567}
+      scale: {x: 1.0000002, y: 1.0000004, z: 0.99999994}
+      transformModified: 1
+    - name: Dedao02_R
+      position: {x: -0.09984697, y: 0.000000018626451, z: 0.00000006146729}
+      rotation: {x: -0.026931087, y: -0.15863076, z: 0.20656809, w: 0.96511173}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: JuntaIndicador_R
+      position: {x: -0.08377883, y: 0.000000026077032, z: -0.000000005587935}
+      rotation: {x: -0.0258975, y: -0.0061390926, z: -0.0752945, w: 0.9968061}
+      scale: {x: 0.75000036, y: 0.75, z: 0.75000006}
+      transformModified: 1
+    - name: Indicador01_R
+      position: {x: -0.17878473, y: 0.000000005587935, z: 0.000000028871}
+      rotation: {x: 0.02829522, y: 0.0024265873, z: 0.030909868, w: 0.9991187}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000001}
+      transformModified: 1
+    - name: Indicador02_R
+      position: {x: -0.1830695, y: -0.000000011175871, z: -0.000000040978193}
+      rotation: {x: 0.012261448, y: -0.027344618, z: 0.027298477, w: 0.99917805}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.99999964}
+      transformModified: 1
+    - name: Indicador03_R
+      position: {x: -0.061685227, y: 0.000000014901161, z: 0.000000027939677}
+      rotation: {x: -0.0019285529, y: 0.000046879042, z: -0.007247668, w: 0.9999719}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: JuntaMedio_R
+      position: {x: -0.08377883, y: 0.000000026077032, z: -0.000000005587935}
+      rotation: {x: 0.0027730814, y: -0.0347088, z: -0.028170018, w: 0.99899656}
+      scale: {x: 0.75000024, y: 0.7500002, z: 0.7500002}
+      transformModified: 1
+    - name: Medio01_R
+      position: {x: -0.16384724, y: 0.000000048428774, z: 0.000000024680048}
+      rotation: {x: -0.0035152857, y: 0.03515264, z: -0.016479885, w: 0.9992399}
+      scale: {x: 0.9999997, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: Medio02_R
+      position: {x: -0.16502446, y: -0.000000018626451, z: 0.00000002142042}
+      rotation: {x: 0.007843763, y: -0.028498806, z: 0.0256405, w: 0.9992342}
+      scale: {x: 0.99999964, y: 0.99999994, z: 0.9999997}
+      transformModified: 1
+    - name: Medio03_R
+      position: {x: -0.058538705, y: 0.000000026077032, z: -0.000000009313226}
+      rotation: {x: 0.009226035, y: -0.00013922152, z: -0.013945874, w: 0.9998602}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: JuntaMinimo_R
+      position: {x: -0.08377883, y: 0.000000026077032, z: -0.000000005587935}
+      rotation: {x: 0.027405301, y: -0.020351153, z: 0.22387268, w: 0.9740204}
+      scale: {x: 0.7500001, y: 0.7500001, z: 0.7500003}
+      transformModified: 1
+    - name: Minimo01_R
+      position: {x: -0.17437701, y: -0.00000008940697, z: -0.00000008568168}
+      rotation: {x: -0.020215329, y: 0.016363004, z: -0.2500688, w: 0.96787876}
+      scale: {x: 0.99999976, y: 0.99999964, z: 0.9999997}
+      transformModified: 1
+    - name: Minimo2_R
+      position: {x: -0.16728525, y: 0.000000014901161, z: 0.00000000372529}
+      rotation: {x: 0.00054654473, y: -0.03607215, z: 0.01599115, w: 0.99922115}
+      scale: {x: 1.0000004, y: 1.0000004, z: 0.9999998}
+      transformModified: 1
+    - name: Minimo3_R
+      position: {x: -0.05857289, y: 0.000000055879354, z: -0.000000018626451}
+      rotation: {x: 0.0027394332, y: -0.00012142953, z: 0.01030226, w: 0.9999432}
+      scale: {x: 1, y: 0.9999996, z: 0.99999994}
+      transformModified: 1
+    - name: nao_deita
+      position: {x: -0, y: 0.05822725, z: -0.2953663}
+      rotation: {x: 0.7071068, y: 0.7071068, z: 0, w: -0.000000029802322}
+      scale: {x: 0.99999976, y: 0.99999976, z: 0.99999976}
+      transformModified: 1
+    - name: Bacia_L
+      position: {x: -0.0045982003, y: 4.63571e-10, z: 0}
+      rotation: {x: -0.38777512, y: -0.49185145, z: 0.60436326, w: 0.4924}
+      scale: {x: 1, y: 1.0000002, z: 1.0000004}
+      transformModified: 1
+    - name: Perna_L
+      position: {x: -0.15796249, y: 0.000000013737008, z: 0.000000028871}
+      rotation: {x: 0.61576635, y: 0.56774694, z: 0.35848543, w: -0.41229054}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: Canela_L
+      position: {x: -0.4448052, y: 0.000000006519258, z: 0.000000007450581}
+      rotation: {x: 0.0007237641, y: -0.24772285, z: -0.014009919, w: -0.9687294}
+      scale: {x: 0.99999946, y: 0.9999999, z: 0.9999996}
+      transformModified: 1
+    - name: Pe_L
+      position: {x: -0.60244054, y: 0.000000045276465, z: -0.000000034022378}
+      rotation: {x: -0.022976775, y: 0.6884794, z: -0.036700144, w: -0.7239622}
+      scale: {x: 1, y: 1.0000001, z: 0.99999976}
+      transformModified: 1
+    - name: Toe_L
+      position: {x: -0.18338734, y: 0.000000014755642, z: 0.000000097024895}
+      rotation: {x: -0.8810587, y: -0.094109155, z: -0.14116901, w: 0.44153187}
+      scale: {x: 0.99999976, y: 1, z: 0.99999964}
+      transformModified: 1
+    - name: Bacia_R
+      position: {x: -0.0045982003, y: 2.3074e-10, z: 0}
+      rotation: {x: -0.38777506, y: 0.49185148, z: 0.6043632, w: -0.49239993}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000004}
+      transformModified: 1
+    - name: Perna_R
+      position: {x: -0.15796249, y: 0.000000014202669, z: 0.000000028871}
+      rotation: {x: 0.6157662, y: -0.567747, z: 0.35848552, w: 0.41229057}
+      scale: {x: 1, y: 0.99999946, z: 0.99999976}
+      transformModified: 1
+    - name: Canela_R
+      position: {x: -0.44480518, y: 0.00000005122274, z: 0.000000001513399}
+      rotation: {x: -0.00072383863, y: -0.24772274, z: 0.014010098, w: -0.96872944}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.99999946}
+      transformModified: 1
+    - name: Pe_R
+      position: {x: -0.60244036, y: 0.00000003585592, z: 0.000000051339157}
+      rotation: {x: 0.022976862, y: 0.6884793, z: 0.036699943, w: -0.7239623}
+      scale: {x: 0.9999999, y: 0.9999996, z: 0.9999998}
+      transformModified: 1
+    - name: Toe_R
+      position: {x: -0.18338747, y: 0.000000015395926, z: 0.000000036889105}
+      rotation: {x: -0.88105863, y: 0.09410942, z: -0.14116904, w: -0.4415319}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1}
+      transformModified: 1
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -1024,7 +1616,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
