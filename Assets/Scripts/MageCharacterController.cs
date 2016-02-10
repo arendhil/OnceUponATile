@@ -6,6 +6,7 @@ public class MageCharacterController : MonoBehaviour {
     private Rigidbody _rigidbody;
     private Animator _animator;
 
+    public Camera camera;
     public AudioClip jump;
     public AudioClip land;
     public AudioClip step;
@@ -48,12 +49,15 @@ public class MageCharacterController : MonoBehaviour {
                 speed.z = v / (Mathf.Abs(h) + Mathf.Abs(v)) * this.walkSpeed * Time.deltaTime;
             }
             //speed = _transform.worldToLocalMatrix * speed;
+            //var camRot = Quaternion.Euler(0f, camera.transform.rotation.y, 0f) * Vector3.one;
             //Debug.Log(speed);
-            _rigidbody.velocity = speed;
             _animator.SetFloat("Forward", speed.magnitude);
+            var frente = (-1) * Vector3.Cross(this.transform.up,camera.transform.right);
+            speed = (frente * speed.z) + (camera.transform.right * speed.x);
+            speed = Vector3.ProjectOnPlane(speed, _transform.up);
+            _rigidbody.velocity = speed + (this.transform.up * _rigidbody.velocity.y);
 
             if (speed.magnitude > 0.2f) {
-                speed = Vector3.ProjectOnPlane(speed, _transform.up);
                 var turn = Mathf.Atan2(speed.x, speed.z);
                 //_transform.Rotate(new Vector3(0f, turn, 0f));
                 transform.rotation = Quaternion.Euler(0f, Mathf.Rad2Deg * turn, 0f);
