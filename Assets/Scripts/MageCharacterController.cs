@@ -58,9 +58,14 @@ public class MageCharacterController : MonoBehaviour {
             _rigidbody.velocity = speed + (this.transform.up * _rigidbody.velocity.y);
 
             if (speed.magnitude > 0.2f) {
-                var turn = Mathf.Atan2(speed.x, speed.z);
+                var turn = Mathf.Rad2Deg * Mathf.Atan2(speed.x, speed.z);
                 //_transform.Rotate(new Vector3(0f, turn, 0f));
-                transform.rotation = Quaternion.Euler(0f, Mathf.Rad2Deg * turn, 0f);
+                if (this.GetComponent<HeadController>()) {
+                    // if you control your head, turn it with the body
+                    Vector3 poi = this.GetComponentInChildren<HeadController>().pointOfInterest;
+                    poi = Quaternion.Euler(0f, -turn + transform.rotation.y, 0f) * poi;
+                }
+                transform.rotation = Quaternion.Euler(0f, turn, 0f);
                 //_transform.rotation.SetLookRotation(_transform.position + new Vector3(speed.x, 0f, speed.z)*this.walkSpeed,_transform.up);
                 if (!this._audioSource.isPlaying) {
                     this._audioSource.clip = step;
