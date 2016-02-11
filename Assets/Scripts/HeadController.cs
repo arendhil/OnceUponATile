@@ -15,14 +15,14 @@ public class HeadController : MonoBehaviour {
 
     void Start () {
         this._animator = this.GetComponent<Animator>();
-        this.pointOfInterest = this.transform.position + 1.5f * this.transform.up + 2.0f * this.transform.forward;
+        this.pointOfInterest = - 2f * this.transform.up + 2.0f * this.transform.forward;
     }
 
     // control the ik on OnAnimatorIK.
     void OnAnimatorIK (int layerIndex) {
         if (pointOfInterest != null) {
             //_lookWeight = Mathf.Lerp(_lookWeight, 1f, Time.deltaTime * lookSmoother);
-            this._animator.SetLookAtPosition(pointOfInterest);
+            this._animator.SetLookAtPosition(pointOfInterest + this.transform.position);
             this._animator.SetLookAtWeight(this._lookWeight);
         }
     }
@@ -31,7 +31,7 @@ public class HeadController : MonoBehaviour {
         Collider[] pois = Physics.OverlapSphere(transform.position, sightDistance, POILayers);
         float closer = 1000f;
         float dist = 0f;
-        Vector3 newPointOfInterest = this.transform.position + 1.5f * this.transform.up + 2.0f * this.transform.forward;
+        Vector3 newPointOfInterest = 2f * this.transform.up + 2.0f * this.transform.forward;
         for (int i = 0; i < pois.Length; i++) {
             //check if it is in front of the player.
             Vector3 direction = pois[i].transform.position - this.transform.position;
@@ -45,7 +45,7 @@ public class HeadController : MonoBehaviour {
             dist = Vector3.Distance(this.transform.position, pois[i].transform.position);
             if ((dist < closer) && (dist > minDistance)) {
                 closer = dist;
-                newPointOfInterest = pois[i].gameObject.transform.position - 1.5f * pois[i].gameObject.transform.up;
+                newPointOfInterest = pois[i].gameObject.transform.position - (this.transform.position - 2f * this.transform.up);
             }
         }
 
