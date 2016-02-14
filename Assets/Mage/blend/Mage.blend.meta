@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 31f26dfe6203162468725b566168bdda
-timeCreated: 1454163239
-licenseType: Pro
+timeCreated: 1455411497
+licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -137,7 +137,34 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nInbetween bone default rotation found in this file
+      is different from the one found in the source avatar:\n\t'Perna_L' : rotation
+      error = 21.530819 deg\n\t'Perna_R' : rotation error = 45.119999 deg\n\nClip
+      'Default Take' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine01'
+      has translation animation that will be discarded.\n\t'Bacia_L' has translation
+      animation that will be discarded.\n\t'Perna_L' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bacia_R' has translation
+      animation that will be discarded.\n\t'Perna_R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'MAge_Jump_Falling'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Perna_L' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Perna_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'mage_jumping_distance' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Perna_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Perna_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'magE_jumping_near' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Perna_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'mage_walking' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine01'
+      has translation animation that will be discarded.\n\t'Bacia_L' has translation
+      animation that will be discarded.\n\t'Perna_L' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bacia_R' has translation
+      animation that will be discarded.\n\t'Perna_R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 3
@@ -1325,6 +1352,54 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
+    - boneName: JuntaDedao_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dedao01_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dedao02_R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: JuntaDedao_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dedao01_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dedao02_L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
     skeleton:
     - name: Mage(Clone)
       position: {x: 0, y: 0, z: 0}
@@ -1340,6 +1415,61 @@ ModelImporter:
       position: {x: 0, y: 1.1901945, z: -0.2953663}
       rotation: {x: -1, y: 0, z: -0.00000012084217, w: 0}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: nao_deita
+      position: {x: -0, y: 0.05822725, z: -0.2953663}
+      rotation: {x: 0.7071068, y: 0.7071068, z: 0, w: -0.000000029802322}
+      scale: {x: 0.99999976, y: 0.99999976, z: 0.99999976}
+      transformModified: 1
+    - name: Bacia_L
+      position: {x: -0.0045982003, y: 4.63571e-10, z: 0}
+      rotation: {x: -0.38777512, y: -0.49185145, z: 0.60436326, w: 0.4924}
+      scale: {x: 1, y: 1.0000002, z: 1.0000004}
+      transformModified: 1
+    - name: Perna_L
+      position: {x: -0.15796249, y: 0.000000013737008, z: 0.000000028871}
+      rotation: {x: 0.61576635, y: 0.56774694, z: 0.35848543, w: -0.41229054}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: Canela_L
+      position: {x: -0.4448052, y: 0.000000006519258, z: 0.000000007450581}
+      rotation: {x: 0.0007237641, y: -0.24772285, z: -0.014009919, w: -0.9687294}
+      scale: {x: 0.99999946, y: 0.9999999, z: 0.9999996}
+      transformModified: 1
+    - name: Pe_L
+      position: {x: -0.60244054, y: 0.000000045276465, z: -0.000000034022378}
+      rotation: {x: -0.022976777, y: 0.6884795, z: -0.036700148, w: -0.72396225}
+      scale: {x: 1, y: 1.0000001, z: 0.99999976}
+      transformModified: 1
+    - name: Toe_L
+      position: {x: -0.18338734, y: 0.000000014755642, z: 0.000000097024895}
+      rotation: {x: -0.8810587, y: -0.094109155, z: -0.14116901, w: 0.44153187}
+      scale: {x: 0.99999976, y: 1, z: 0.99999964}
+      transformModified: 1
+    - name: Bacia_R
+      position: {x: -0.0045982003, y: 2.3074e-10, z: 0}
+      rotation: {x: -0.3877751, y: 0.4918515, z: 0.60436326, w: -0.49239996}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000004}
+      transformModified: 1
+    - name: Perna_R
+      position: {x: -0.15796249, y: 0.000000014202669, z: 0.000000028871}
+      rotation: {x: 0.6157662, y: -0.567747, z: 0.35848552, w: 0.41229057}
+      scale: {x: 1, y: 0.99999946, z: 0.99999976}
+      transformModified: 1
+    - name: Canela_R
+      position: {x: -0.44480518, y: 0.00000005122274, z: 0.000000001513399}
+      rotation: {x: -0.00072383863, y: -0.24772274, z: 0.014010098, w: -0.96872944}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.99999946}
+      transformModified: 1
+    - name: Pe_R
+      position: {x: -0.60244036, y: 0.00000003585592, z: 0.000000051339157}
+      rotation: {x: 0.022976862, y: 0.6884793, z: 0.036699943, w: -0.7239623}
+      scale: {x: 0.9999999, y: 0.9999996, z: 0.9999998}
+      transformModified: 1
+    - name: Toe_R
+      position: {x: -0.18338747, y: 0.000000015395926, z: 0.000000036889105}
+      rotation: {x: -0.88105863, y: 0.09410942, z: -0.14116904, w: -0.4415319}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1}
       transformModified: 1
     - name: Spine01
       position: {x: -0, y: 0.05822725, z: -0.2907681}
@@ -1368,7 +1498,7 @@ ModelImporter:
       transformModified: 1
     - name: Braco_L
       position: {x: -0.25276384, y: 0.000000006519258, z: 0.000000015832484}
-      rotation: {x: 0.0044818236, y: -0.029074116, z: 0.11974775, w: 0.9923684}
+      rotation: {x: 0.004481824, y: -0.029074118, z: 0.11974776, w: 0.99236846}
       scale: {x: 1.0000001, y: 1.0000005, z: 0.99999976}
       transformModified: 1
     - name: Antebraco_L
@@ -1383,12 +1513,12 @@ ModelImporter:
       transformModified: 1
     - name: JuntaDedao_L
       position: {x: -0.08377882, y: 0.000000014901161, z: 0.000000005122274}
-      rotation: {x: 0.05967395, y: -0.00392818, z: 0.44805315, w: 0.89200443}
+      rotation: {x: 0.059673954, y: -0.0039281803, z: 0.44805318, w: 0.8920045}
       scale: {x: 0.75, y: 0.74999994, z: 0.7500001}
       transformModified: 1
     - name: Dedao01_L
       position: {x: -0.16414483, y: 0.00000005122274, z: 0.000000063329935}
-      rotation: {x: -0.004208536, y: 0.1252892, z: -0.028017312, w: 0.99171567}
+      rotation: {x: -0.0042408016, y: 0.03625999, z: -0.008108478, w: 0.99930054}
       scale: {x: 0.99999976, y: 0.9999999, z: 0.9999996}
       transformModified: 1
     - name: Dedao02_L
@@ -1408,7 +1538,7 @@ ModelImporter:
       transformModified: 1
     - name: Indicador02_L
       position: {x: -0.18306953, y: 0.000000059604645, z: 0.000000044703484}
-      rotation: {x: -0.012261763, y: -0.027343163, z: -0.027298486, w: 0.99917805}
+      rotation: {x: -0.012261764, y: -0.027343165, z: -0.027298488, w: 0.9991781}
       scale: {x: 1, y: 0.9999999, z: 1}
       transformModified: 1
     - name: Indicador03_L
@@ -1423,7 +1553,7 @@ ModelImporter:
       transformModified: 1
     - name: Medio01_L
       position: {x: -0.16384737, y: 0.000000037252903, z: -0.000000010244548}
-      rotation: {x: 0.0035151932, y: 0.035152618, z: 0.016479854, w: 0.99923986}
+      rotation: {x: 0.0035151935, y: 0.03515262, z: 0.016479855, w: 0.9992399}
       scale: {x: 0.99999964, y: 0.99999994, z: 0.9999998}
       transformModified: 1
     - name: Medio02_L
@@ -1433,7 +1563,7 @@ ModelImporter:
       transformModified: 1
     - name: Medio03_L
       position: {x: -0.058538638, y: 0.000000059604645, z: 0.000000026077032}
-      rotation: {x: -0.00922608, y: -0.00013931007, z: 0.013945834, w: 0.99986017}
+      rotation: {x: -0.009226081, y: -0.00013931008, z: 0.013945835, w: 0.9998602}
       scale: {x: 0.99999976, y: 0.99999976, z: 1}
       transformModified: 1
     - name: JuntaMinimo_L
@@ -1448,7 +1578,7 @@ ModelImporter:
       transformModified: 1
     - name: Minimo02_L
       position: {x: -0.16728535, y: -0.000000044703484, z: -0.000000059604645}
-      rotation: {x: 0.017418081, y: -0.018837098, z: 0.03359688, w: 0.9991061}
+      rotation: {x: 0.017418083, y: -0.0188371, z: 0.033596884, w: 0.99910617}
       scale: {x: 1.0000002, y: 0.9999999, z: 1}
       transformModified: 1
     - name: Minimo03_L
@@ -1458,7 +1588,7 @@ ModelImporter:
       transformModified: 1
     - name: Ombro_R
       position: {x: -0.23099162, y: 0.000000020489097, z: 0.000000014668331}
-      rotation: {x: -0.40906036, y: 0.5162203, z: 0.47244143, w: -0.58564943}
+      rotation: {x: -0.4090604, y: 0.51622033, z: 0.47244146, w: -0.5856495}
       scale: {x: 1.0000002, y: 0.9999997, z: 1.0000001}
       transformModified: 1
     - name: Braco_R
@@ -1468,12 +1598,12 @@ ModelImporter:
       transformModified: 1
     - name: Antebraco_R
       position: {x: -0.30069128, y: 0.000000052154064, z: -0.000000026077032}
-      rotation: {x: 0.0595453, y: 0.07132931, z: 0.0019967665, w: 0.99567187}
+      rotation: {x: 0.059545305, y: 0.07132932, z: 0.0019967668, w: 0.9956719}
       scale: {x: 0.9999999, y: 1.0000005, z: 1.0000005}
       transformModified: 1
     - name: Pulso_R
       position: {x: -0.27391085, y: 0.000000033527613, z: 0.00000002537854}
-      rotation: {x: -0.0039101494, y: -0.036721148, z: 0.011082763, w: 0.99925643}
+      rotation: {x: -0.00391015, y: -0.03672115, z: 0.011082764, w: 0.9992565}
       scale: {x: 0.9999998, y: 1, z: 0.99999964}
       transformModified: 1
     - name: JuntaDedao_R
@@ -1483,7 +1613,7 @@ ModelImporter:
       transformModified: 1
     - name: Dedao01_R
       position: {x: -0.1641448, y: 0.000000018626451, z: 0.00000004656613}
-      rotation: {x: 0.004208525, y: 0.12528916, z: 0.028017431, w: 0.99171567}
+      rotation: {x: 0.004240631, y: 0.036259763, z: 0.008108897, w: 0.9993005}
       scale: {x: 1.0000002, y: 1.0000004, z: 0.99999994}
       transformModified: 1
     - name: Dedao02_R
@@ -1550,61 +1680,6 @@ ModelImporter:
       position: {x: -0.05857289, y: 0.000000055879354, z: -0.000000018626451}
       rotation: {x: 0.0027394332, y: -0.00012142953, z: 0.01030226, w: 0.9999432}
       scale: {x: 1, y: 0.9999996, z: 0.99999994}
-      transformModified: 1
-    - name: nao_deita
-      position: {x: -0, y: 0.05822725, z: -0.2953663}
-      rotation: {x: 0.7071068, y: 0.7071068, z: 0, w: -0.000000029802322}
-      scale: {x: 0.99999976, y: 0.99999976, z: 0.99999976}
-      transformModified: 1
-    - name: Bacia_L
-      position: {x: -0.0045982003, y: 4.63571e-10, z: 0}
-      rotation: {x: -0.38777512, y: -0.49185145, z: 0.60436326, w: 0.4924}
-      scale: {x: 1, y: 1.0000002, z: 1.0000004}
-      transformModified: 1
-    - name: Perna_L
-      position: {x: -0.15796249, y: 0.000000013737008, z: 0.000000028871}
-      rotation: {x: 0.61576635, y: 0.56774694, z: 0.35848543, w: -0.41229054}
-      scale: {x: 1, y: 1.0000001, z: 1.0000001}
-      transformModified: 1
-    - name: Canela_L
-      position: {x: -0.4448052, y: 0.000000006519258, z: 0.000000007450581}
-      rotation: {x: 0.0007237641, y: -0.24772285, z: -0.014009919, w: -0.9687294}
-      scale: {x: 0.99999946, y: 0.9999999, z: 0.9999996}
-      transformModified: 1
-    - name: Pe_L
-      position: {x: -0.60244054, y: 0.000000045276465, z: -0.000000034022378}
-      rotation: {x: -0.022976775, y: 0.6884794, z: -0.036700144, w: -0.7239622}
-      scale: {x: 1, y: 1.0000001, z: 0.99999976}
-      transformModified: 1
-    - name: Toe_L
-      position: {x: -0.18338734, y: 0.000000014755642, z: 0.000000097024895}
-      rotation: {x: -0.8810587, y: -0.094109155, z: -0.14116901, w: 0.44153187}
-      scale: {x: 0.99999976, y: 1, z: 0.99999964}
-      transformModified: 1
-    - name: Bacia_R
-      position: {x: -0.0045982003, y: 2.3074e-10, z: 0}
-      rotation: {x: -0.38777506, y: 0.49185148, z: 0.6043632, w: -0.49239993}
-      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000004}
-      transformModified: 1
-    - name: Perna_R
-      position: {x: -0.15796249, y: 0.000000014202669, z: 0.000000028871}
-      rotation: {x: 0.6157662, y: -0.567747, z: 0.35848552, w: 0.41229057}
-      scale: {x: 1, y: 0.99999946, z: 0.99999976}
-      transformModified: 1
-    - name: Canela_R
-      position: {x: -0.44480518, y: 0.00000005122274, z: 0.000000001513399}
-      rotation: {x: -0.00072383863, y: -0.24772274, z: 0.014010098, w: -0.96872944}
-      scale: {x: 0.99999976, y: 0.99999994, z: 0.99999946}
-      transformModified: 1
-    - name: Pe_R
-      position: {x: -0.60244036, y: 0.00000003585592, z: 0.000000051339157}
-      rotation: {x: 0.022976862, y: 0.6884793, z: 0.036699943, w: -0.7239623}
-      scale: {x: 0.9999999, y: 0.9999996, z: 0.9999998}
-      transformModified: 1
-    - name: Toe_R
-      position: {x: -0.18338747, y: 0.000000015395926, z: 0.000000036889105}
-      rotation: {x: -0.88105863, y: 0.09410942, z: -0.14116904, w: -0.4415319}
-      scale: {x: 0.99999976, y: 0.99999976, z: 1}
       transformModified: 1
     armTwist: 0.5
     foreArmTwist: 0.5
