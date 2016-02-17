@@ -63,7 +63,7 @@ public class MageCharacterController : MonoBehaviour {
                 if (this.GetComponent<HeadController>()) {
                     // if you control your head, turn it with the body
                     Vector3 poi = this.GetComponentInChildren<HeadController>().pointOfInterest;
-                    poi = Quaternion.Euler(0f, -turn + transform.rotation.y, 0f) * poi;
+                    poi = Quaternion.Euler(0f, turn - transform.rotation.y, 0f) * poi;
                 }
                 transform.rotation = Quaternion.Euler(0f, turn, 0f);
                 //_transform.rotation.SetLookRotation(_transform.position + new Vector3(speed.x, 0f, speed.z)*this.walkSpeed,_transform.up);
