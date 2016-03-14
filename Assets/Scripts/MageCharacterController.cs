@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(ClimbController))]
 public class MageCharacterController : MonoBehaviour {
     private Transform _transform;
     private Rigidbody _rigidbody;
@@ -28,8 +29,13 @@ public class MageCharacterController : MonoBehaviour {
 	
 	// Update - Input control
 	void Update () {
-	    if (Input.GetButton("Jump") && this.grounded) {
-            this.jumping = true;
+	    if (Input.GetButtonDown("Jump") && this.grounded) {
+            if (this.GetComponent<ClimbController>().needToClimb) {
+                this.transform.position = this.GetComponent<ClimbController>().targetToClimb.transform.position;
+            } else {
+                this.jumping = true;
+            }
+
         }
 
         //check for ground
